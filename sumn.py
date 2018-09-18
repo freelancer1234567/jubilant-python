@@ -1,5 +1,5 @@
 #sum
-l,k=input().split()
+k,l=input().split()
 n=list(map(int, input().split()))
 l=int(l)
 sum=0
