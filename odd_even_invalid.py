@@ -1,8 +1,8 @@
-num = int(input(""))
-mod = num % 2
+val = int(input(""))
+mod = val % 2
 if mod > 0:
-	print("it is odd")
+	print("odd")
 elif mod < 0:
-	print("it is even")
+	print("even")
 else:
 	print("invalid")
