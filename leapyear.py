@@ -1,8 +1,8 @@
 #leap year
 def daysInYear(year):
        if(year%4==0):
-        print("it is a leap year and it has 366 days")
+        print("yes")
        else:
-        print("it is not a leap year and it has 365 days")
-year=int(input("enter a year:"))
+        print("no")
+year=int(input())
 daysInYear(year)
